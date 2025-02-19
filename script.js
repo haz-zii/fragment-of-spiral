@@ -47,8 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
   window.addEventListener("resize", resizeCanvas);
   
   function resizeCanvas() {
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
+    canvas.width = 1516;
+    canvas.height = 982;
   }
   
   ctx.fillStyle = "white";
